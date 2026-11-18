@@ -1,0 +1,50 @@
+[
+  {
+    "record_id": "intent-demo-01",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:00:00Z",
+    "text": "光合作用和呼吸作用有什么区别？",
+    "context": "初一生物·单元答疑"
+  },
+  {
+    "record_id": "intent-demo-02",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:05:00Z",
+    "text": "这道方程题的解题步骤是什么？",
+    "context": "初二数学·课堂练习"
+  },
+  {
+    "record_id": "intent-demo-03",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:10:00Z",
+    "text": "别讲了，直接把这页作业的答案给我吧。",
+    "context": "初二数学·课后作业"
+  },
+  {
+    "record_id": "intent-demo-04",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:15:00Z",
+    "text": "这个公式怎么处理？",
+    "context": ""
+  },
+  {
+    "record_id": "intent-demo-05a",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:20:00Z",
+    "text": "把第三题的思路讲一下",
+    "context": "物理课·随堂测验"
+  },
+  {
+    "record_id": "intent-demo-05b",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T10:21:00Z",
+    "text": "把第三题的思路讲一下",
+    "context": "物理课·课后作业答疑"
+  }
+]

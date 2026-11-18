@@ -1,0 +1,774 @@
+{
+  "records": [
+    {
+      "record_id": "intent-demo-01",
+      "source": "school-synthetic",
+      "revision": 1,
+      "observed_at": "2026-11-18T10:00:00Z",
+      "text": "光合作用和呼吸作用有什么区别?",
+      "context": "初一生物·单元答疑",
+      "analysis": {
+        "tokens": [
+          "光",
+          "合",
+          "作",
+          "用",
+          "和",
+          "呼",
+          "吸",
+          "作",
+          "用",
+          "有",
+          "什",
+          "么",
+          "区",
+          "别",
+          "?"
+        ],
+        "terms": [
+          "光",
+          "合",
+          "作",
+          "用",
+          "和",
+          "呼",
+          "吸",
+          "有",
+          "什",
+          "么",
+          "区",
+          "别",
+          "?"
+        ],
+        "character_count": 15,
+        "token_count": 15
+      }
+    },
+    {
+      "record_id": "intent-demo-02",
+      "source": "school-synthetic",
+      "revision": 2,
+      "observed_at": "2026-11-18T12:00:00Z",
+      "text": "这道方程题的解题步骤是什么?",
+      "context": "初二数学·考试答疑(新任务)",
+      "analysis": {
+        "tokens": [
+          "这",
+          "道",
+          "方",
+          "程",
+          "题",
+          "的",
+          "解",
+          "题",
+          "步",
+          "骤",
+          "是",
+          "什",
+          "么",
+          "?"
+        ],
+        "terms": [
+          "这",
+          "道",
+          "方",
+          "程",
+          "题",
+          "的",
+          "解",
+          "步",
+          "骤",
+          "是",
+          "什",
+          "么",
+          "?"
+        ],
+        "character_count": 14,
+        "token_count": 14
+      }
+    },
+    {
+      "record_id": "intent-demo-03",
+      "source": "school-synthetic",
+      "revision": 1,
+      "observed_at": "2026-11-18T10:10:00Z",
+      "text": "别讲了,直接把这页作业的答案给我吧。",
+      "context": "初二数学·课后作业",
+      "analysis": {
+        "tokens": [
+          "别",
+          "讲",
+          "了",
+          ",",
+          "直",
+          "接",
+          "把",
+          "这",
+          "页",
+          "作",
+          "业",
+          "的",
+          "答",
+          "案",
+          "给",
+          "我",
+          "吧",
+          "。"
+        ],
+        "terms": [
+          "别",
+          "讲",
+          "了",
+          ",",
+          "直",
+          "接",
+          "把",
+          "这",
+          "页",
+          "作",
+          "业",
+          "的",
+          "答",
+          "案",
+          "给",
+          "我",
+          "吧",
+          "。"
+        ],
+        "character_count": 18,
+        "token_count": 18
+      }
+    },
+    {
+      "record_id": "intent-demo-04",
+      "source": "school-synthetic",
+      "revision": 1,
+      "observed_at": "2026-11-18T10:15:00Z",
+      "text": "这个公式怎么处理?",
+      "context": "高一物理·力学单元作业,讲解步骤",
+      "analysis": {
+        "tokens": [
+          "这",
+          "个",
+          "公",
+          "式",
+          "怎",
+          "么",
+          "处",
+          "理",
+          "?"
+        ],
+        "terms": [
+          "这",
+          "个",
+          "公",
+          "式",
+          "怎",
+          "么",
+          "处",
+          "理",
+          "?"
+        ],
+        "character_count": 9,
+        "token_count": 9
+      }
+    },
+    {
+      "record_id": "intent-demo-05a",
+      "source": "school-synthetic",
+      "revision": 1,
+      "observed_at": "2026-11-18T10:20:00Z",
+      "text": "把第三题的思路讲一下",
+      "context": "物理课·随堂测验",
+      "analysis": {
+        "tokens": [
+          "把",
+          "第",
+          "三",
+          "题",
+          "的",
+          "思",
+          "路",
+          "讲",
+          "一",
+          "下"
+        ],
+        "terms": [
+          "把",
+          "第",
+          "三",
+          "题",
+          "的",
+          "思",
+          "路",
+          "讲",
+          "一",
+          "下"
+        ],
+        "character_count": 10,
+        "token_count": 10
+      }
+    },
+    {
+      "record_id": "intent-demo-05b",
+      "source": "school-synthetic",
+      "revision": 1,
+      "observed_at": "2026-11-18T10:21:00Z",
+      "text": "把第三题的思路讲一下",
+      "context": "物理课·课后作业答疑",
+      "analysis": {
+        "tokens": [
+          "把",
+          "第",
+          "三",
+          "题",
+          "的",
+          "思",
+          "路",
+          "讲",
+          "一",
+          "下"
+        ],
+        "terms": [
+          "把",
+          "第",
+          "三",
+          "题",
+          "的",
+          "思",
+          "路",
+          "讲",
+          "一",
+          "下"
+        ],
+        "character_count": 10,
+        "token_count": 10
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "case-b2041886b37e",
+      "classification_key": "35531d003fbf5b62",
+      "record_id": "intent-demo-01",
+      "created_at": "2026-11-18T11:10:58.584981Z",
+      "active_key": "35531d003fbf5b62",
+      "events": [
+        {
+          "event_id": "evt-3f35bf4e25f8",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.584981Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "knowledge_followup",
+          "reason": "分类器 rule-based-v1 命中规则词：区别",
+          "matched_terms": [
+            "区别"
+          ],
+          "classification_key": "35531d003fbf5b62",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-1c3aa2b70f07",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:10:58.584981Z",
+          "type": "student_hint",
+          "intent": "knowledge_followup",
+          "basis_event_id": "evt-3f35bf4e25f8"
+        },
+        {
+          "event_id": "evt-95e22f57916f",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353376Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "knowledge_followup",
+          "reason": "分类器 rule-based-v1 命中规则词：区别",
+          "matched_terms": [
+            "区别"
+          ],
+          "classification_key": "35531d003fbf5b62",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-c16ecf045fcd",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353376Z",
+          "reason": "重放分类与当前结论一致，当前结论与已发处置保留",
+          "replayed": true,
+          "supersedes_event_id": "evt-95e22f57916f"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-370839b5233d",
+          "type": "student_hint",
+          "intent": "knowledge_followup",
+          "status": "issued",
+          "issued_event_id": "evt-1c3aa2b70f07",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:10:58.584981Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    },
+    {
+      "case_id": "case-df6496e202a7",
+      "classification_key": "bf3cb0c5f9552166",
+      "record_id": "intent-demo-02",
+      "created_at": "2026-11-18T11:10:58.585090Z",
+      "active_key": "40f72d0b29135e49",
+      "events": [
+        {
+          "event_id": "evt-afbc62c6ed3d",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.585090Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：步骤",
+          "matched_terms": [
+            "步骤"
+          ],
+          "classification_key": "bf3cb0c5f9552166",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-09ff31584e31",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:10:58.585090Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-afbc62c6ed3d"
+        },
+        {
+          "event_id": "evt-aab80119721e",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353481Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：步骤",
+          "matched_terms": [
+            "步骤"
+          ],
+          "classification_key": "bf3cb0c5f9552166",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-3fea4dfc5c98",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353481Z",
+          "reason": "重放分类与当前结论一致，当前结论与已发处置保留",
+          "replayed": true,
+          "supersedes_event_id": "evt-aab80119721e"
+        },
+        {
+          "event_id": "evt-1a654da1b5aa",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:28.444406Z",
+          "reason": "文本或课程上下文变更，判题范围改变（bf3cb0c5f9552166 → 40f72d0b29135e49）；原范围内已发处置全部撤回，并按新范围重新分类",
+          "replayed": false,
+          "supersedes_event_id": null
+        },
+        {
+          "event_id": "evt-c8dc2cddac1c",
+          "event_type": "disposition_withdrawn",
+          "at": "2026-11-18T11:11:28.444406Z",
+          "disposition_id": "disp-2cb040fb60e5",
+          "type": "manual_review",
+          "reason": "判题范围（文本/课程上下文）变更，原处置撤回",
+          "basis_event_id": "evt-1a654da1b5aa"
+        },
+        {
+          "event_id": "evt-4be0cc4b6b7a",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:28.444406Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：步骤",
+          "matched_terms": [
+            "步骤"
+          ],
+          "classification_key": "40f72d0b29135e49",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-d768a09f88a8",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:11:28.444406Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-4be0cc4b6b7a"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-2cb040fb60e5",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "withdrawn",
+          "issued_event_id": "evt-09ff31584e31",
+          "withdrawn_event_id": "evt-1a654da1b5aa",
+          "issued_at": "2026-11-18T11:10:58.585090Z",
+          "withdrawn_at": "2026-11-18T11:11:28.444406Z",
+          "withdrawn_reason": "判题范围（文本/课程上下文）变更，原处置撤回"
+        },
+        {
+          "disposition_id": "disp-5e02d3fd7b38",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "issued",
+          "issued_event_id": "evt-d768a09f88a8",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:11:28.444406Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    },
+    {
+      "case_id": "case-cb6a927ff4a7",
+      "classification_key": "f58293fbe5f722d7",
+      "record_id": "intent-demo-03",
+      "created_at": "2026-11-18T11:10:58.585130Z",
+      "active_key": "f58293fbe5f722d7",
+      "events": [
+        {
+          "event_id": "evt-8b6d3d39c15e",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.585130Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "answer_request",
+          "reason": "分类器 rule-based-v1 命中规则词：答案",
+          "matched_terms": [
+            "答案"
+          ],
+          "classification_key": "f58293fbe5f722d7",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-b5bfd2356cbd",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:10:58.585130Z",
+          "type": "teacher_reminder",
+          "intent": "answer_request",
+          "basis_event_id": "evt-8b6d3d39c15e"
+        },
+        {
+          "event_id": "evt-cb02bc87b4b3",
+          "event_type": "teacher_decision",
+          "at": "2026-11-18T11:11:16.292800Z",
+          "teacher": "teacher-lin",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "学生其实在问解题过程",
+          "previous_event_id": "evt-8b6d3d39c15e",
+          "previous_intent": "answer_request",
+          "classification_key": "f58293fbe5f722d7"
+        },
+        {
+          "event_id": "evt-fdef71a17658",
+          "event_type": "disposition_withdrawn",
+          "at": "2026-11-18T11:11:16.292800Z",
+          "disposition_id": "disp-46328e53f8f6",
+          "type": "teacher_reminder",
+          "reason": "教师改判为要求解释步骤，处置策略改为人工复核，原教师提醒撤回",
+          "basis_event_id": "evt-cb02bc87b4b3"
+        },
+        {
+          "event_id": "evt-da42df970bef",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:11:16.292800Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-cb02bc87b4b3"
+        },
+        {
+          "event_id": "evt-12c44c844c21",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353523Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "answer_request",
+          "reason": "分类器 rule-based-v1 命中规则词：答案",
+          "matched_terms": [
+            "答案"
+          ],
+          "classification_key": "f58293fbe5f722d7",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-eb1249e1f8f9",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353523Z",
+          "reason": "重放分类（classified：请求直接给出作业答案）不回写；当前保留教师改判结论：要求解释步骤",
+          "replayed": true,
+          "supersedes_event_id": "evt-12c44c844c21"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-46328e53f8f6",
+          "type": "teacher_reminder",
+          "intent": "answer_request",
+          "status": "withdrawn",
+          "issued_event_id": "evt-b5bfd2356cbd",
+          "withdrawn_event_id": "evt-cb02bc87b4b3",
+          "issued_at": "2026-11-18T11:10:58.585130Z",
+          "withdrawn_at": "2026-11-18T11:11:16.292800Z",
+          "withdrawn_reason": "教师改判为要求解释步骤，处置策略改为人工复核，原教师提醒撤回"
+        },
+        {
+          "disposition_id": "disp-c9b2d2bbd576",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "issued",
+          "issued_event_id": "evt-da42df970bef",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:11:16.292800Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    },
+    {
+      "case_id": "case-3e71f4ea3b80",
+      "classification_key": "7c925088b5879c10",
+      "record_id": "intent-demo-04",
+      "created_at": "2026-11-18T11:10:58.585161Z",
+      "active_key": "4f8249aa86b21d76",
+      "events": [
+        {
+          "event_id": "evt-5ca0feb3eaee",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.585161Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "pending",
+          "intent": null,
+          "reason": "缺少课程上下文，无法确认请求所处的课程任务，保持待判",
+          "matched_terms": [],
+          "classification_key": "7c925088b5879c10",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-fbd36f207012",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353554Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "pending",
+          "intent": null,
+          "reason": "缺少课程上下文，无法确认请求所处的课程任务，保持待判",
+          "matched_terms": [],
+          "classification_key": "7c925088b5879c10",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-b0c87d8e6112",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353554Z",
+          "reason": "重放分类与当前结论一致，当前结论与已发处置保留",
+          "replayed": true,
+          "supersedes_event_id": "evt-fbd36f207012"
+        },
+        {
+          "event_id": "evt-70bbf0712824",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.485360Z",
+          "reason": "文本或课程上下文变更，判题范围改变（7c925088b5879c10 → 4f8249aa86b21d76）；原范围内已发处置全部撤回，并按新范围重新分类",
+          "replayed": false,
+          "supersedes_event_id": null
+        },
+        {
+          "event_id": "evt-112148b6f283",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.485360Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：步骤、讲解",
+          "matched_terms": [
+            "步骤",
+            "讲解"
+          ],
+          "classification_key": "4f8249aa86b21d76",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-1095cb823679",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:11:16.485360Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-112148b6f283"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-01b0ae3ab938",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "issued",
+          "issued_event_id": "evt-1095cb823679",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:11:16.485360Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    },
+    {
+      "case_id": "case-45dbc0f06141",
+      "classification_key": "2e53c221af91f197",
+      "record_id": "intent-demo-05a",
+      "created_at": "2026-11-18T11:10:58.585180Z",
+      "active_key": "2e53c221af91f197",
+      "events": [
+        {
+          "event_id": "evt-45852da23a6b",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.585180Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：思路、讲一下",
+          "matched_terms": [
+            "思路",
+            "讲一下"
+          ],
+          "classification_key": "2e53c221af91f197",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-2442ef1c548c",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:10:58.585180Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-45852da23a6b"
+        },
+        {
+          "event_id": "evt-aa0896ed0c9d",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353574Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：思路、讲一下",
+          "matched_terms": [
+            "思路",
+            "讲一下"
+          ],
+          "classification_key": "2e53c221af91f197",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-28de9c3c1ddb",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353574Z",
+          "reason": "重放分类与当前结论一致，当前结论与已发处置保留",
+          "replayed": true,
+          "supersedes_event_id": "evt-aa0896ed0c9d"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-41262f9cb168",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "issued",
+          "issued_event_id": "evt-2442ef1c548c",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:10:58.585180Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    },
+    {
+      "case_id": "case-f46575c12435",
+      "classification_key": "43b8470cf40fe78d",
+      "record_id": "intent-demo-05b",
+      "created_at": "2026-11-18T11:10:58.585208Z",
+      "active_key": "43b8470cf40fe78d",
+      "events": [
+        {
+          "event_id": "evt-9295cdfb5994",
+          "event_type": "classification",
+          "at": "2026-11-18T11:10:58.585208Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：思路、讲一下",
+          "matched_terms": [
+            "思路",
+            "讲一下"
+          ],
+          "classification_key": "43b8470cf40fe78d",
+          "replayed": false
+        },
+        {
+          "event_id": "evt-f94e147f2e42",
+          "event_type": "disposition_issued",
+          "at": "2026-11-18T11:10:58.585208Z",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "basis_event_id": "evt-9295cdfb5994"
+        },
+        {
+          "event_id": "evt-362a63d8ca4e",
+          "event_type": "classification",
+          "at": "2026-11-18T11:11:16.353598Z",
+          "source": "classifier:rule-based-v1",
+          "classifier_version": "rule-based-v1",
+          "status": "classified",
+          "intent": "step_explanation",
+          "reason": "分类器 rule-based-v1 命中规则词：思路、讲一下",
+          "matched_terms": [
+            "思路",
+            "讲一下"
+          ],
+          "classification_key": "43b8470cf40fe78d",
+          "replayed": true
+        },
+        {
+          "event_id": "evt-5e0a5412aaf5",
+          "event_type": "reconciliation",
+          "at": "2026-11-18T11:11:16.353598Z",
+          "reason": "重放分类与当前结论一致，当前结论与已发处置保留",
+          "replayed": true,
+          "supersedes_event_id": "evt-362a63d8ca4e"
+        }
+      ],
+      "dispositions": [
+        {
+          "disposition_id": "disp-b7d8a7407580",
+          "type": "manual_review",
+          "intent": "step_explanation",
+          "status": "issued",
+          "issued_event_id": "evt-f94e147f2e42",
+          "withdrawn_event_id": null,
+          "issued_at": "2026-11-18T11:10:58.585208Z",
+          "withdrawn_at": null,
+          "withdrawn_reason": null
+        }
+      ]
+    }
+  ]
+}
